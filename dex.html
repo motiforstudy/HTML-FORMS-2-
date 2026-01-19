@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="http://localhost:3000/register" method="POST">
+            <label for="full_name"> full name   
+                <input name="full_name" type="text" required>
+            </label><br><br>
+
+            <label for="email"> email
+                <input name="email" type="email" required>
+            </label><br><br>
+
+            <label for="age"> age
+                <input name="age" type="number" required>
+            </label><br><br>
+
+            <u><legend>Gender:</legend></u>
+            <input required type="radio" id="Men" name="Gender" value="Men" />
+            <label for="Men">Men</label><br />
+
+            <input required type="radio" id="Women" name="Gender" value="Women" />
+            <label for="Women">Women</label><br><br>
+
+            preferred course <select name="preferred_course" id="preferred_course"> 
+                <option value="math">math</option>
+                <option value="history">history</option>
+                <option value="biology">biology</option>
+                <option value="tanach">tanach</option>
+            </select><br><br>
+
+            <label for="confirm"> confirm
+                <input name="confirm" type="checkbox" required>
+            </label><br><br>
+
+            <input type="submit"><br><br>
+
+        </form>
+        <form action="http://localhost:3000/student" method="GET">
+       </form>
+    </main>
+</body>
+</html>
